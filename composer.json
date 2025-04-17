@@ -1,0 +1,22 @@
+{
+    "name": "neoehs/basepack",
+    "description": "NeoEHS Application",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Neoehs\\Basepack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gowthamardhas",
+            "email": "gowtham@ardhas.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2",
+        "spatie/simple-excel": "^3.5",
+        "shuchkin/simplexlsxgen": "^1.4",
+        "phpoffice/phpspreadsheet": "^3.7"
+    }
+}
